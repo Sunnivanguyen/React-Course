@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #23252c;
+  font-family: Inter, sans-serif;
+}
+
+.business-card {
+  width: 30%;
+  height: 80%;
+  border: 1px;
+  margin: 40px 35%;
+}
+main {
+  text-align: center;
+}
+.info {
+  color: white;
+}
+.my-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px 0;
+}
+h3 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #f3bf99;
+  margin: 7px 0;
+}
+a,
+p {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 7px 0;
+  cursor: pointer;
+}
+.links-btn {
+  text-align: center;
+  margin: 20px;
+}
+.button {
+  border-radius: 5px;
+  border-style: solid;
+  border: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#email-btn {
+  margin-right: 110px;
+  background-color: white;
+  color: #374151;
+  display: inline-flex;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#linkedin-btn {
+  display: inline-flex;
+  background-color: #5093e2;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mail-icon,
+.linkedin-icon {
+  margin-right: 5px;
+}
+.about,
+.interests {
+  margin: 25px 40px;
+}
+h2 {
+  color: white;
+  font-size: 17px;
+}
+.contact-logos {
+  border-radius: 0 0 10px 10px;
+  border: none;
+  background-color: #161619;
+  list-style: none;
+  display: flex;
+  padding: 20px 40px;
+}
+.contact-logos > li {
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.contact-logos > li > img {
+  width: 30px;
+}

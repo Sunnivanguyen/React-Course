@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cormorant", serif;
+  margin: 0;
+}
+.nav--bar {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin-bottom: 40px;
+}
+.web-logo {
+  margin-right: 5px;
+}
+.web-name {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+}
+.main {
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+.destination {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.infomation {
+  margin-left: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+.map-icon {
+  margin-right: 5px;
+}
+.country {
+  color: #2b283a;
+  font-size: 11px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.google-map {
+  font-size: 11px;
+  color: #918e9b;
+}
+.destination-name {
+  font-weight: 700;
+  font-size: 25px;
+  color: #2b283a;
+  margin: 0px;
+}
+.travel-time {
+  color: #2b283a;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.description {
+  margin: 0;
+  color: #2b283a;
+  font-size: 15px;
+  max-width: 550px;
+}
